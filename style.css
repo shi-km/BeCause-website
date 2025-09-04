@@ -253,6 +253,18 @@ h5 {
   box-shadow: 0 0 0 2px rgba(0,183,249,0.2);
 }
 
+
+/* Accordion */
+
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+  color: var(--primary-color);
+}
+
+.accordion-button:not(.collapsed)::after{
+  color: var(--primary-color);
+}
+
 /* ===============================
    Footer
 ================================= */
