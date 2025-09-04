@@ -95,8 +95,8 @@
   <!-- Card One -->
   <div class="col-md-3">
     <div class="card p-3 text-center h-100">
-      <img src="assets/images/About-hero.png" alt="Denmark flag"
-           class="img-fluid">
+      <img src="assets/images/bloog2.jpg" alt="Denmark flag"
+           class="img-fluid" style="height:200px;">
       <div class="card-body text-start">
         <h5 class="card-title py-2">John Doe</h5>
         <p class="card-text pb-2">Lorem ipsum dolor sit amet consectetur,
@@ -112,8 +112,8 @@
   <!-- Card Two -->
   <div class="col-md-3">
     <div class="card p-3 text-center text-start">
-      <img src="assets/images/About-hero.png" alt="Germany flag"
-           class="img-fluid h-100 ">
+      <img src="assets/images/bloog2.jpg.png" alt="Germany flag"
+           class="img-fluid h-100 "style="height:200px;">
       <div class="card-body text-start">
         <h5 class="card-title py-2">John Doe</h5>
         <p class="card-text pb-2">Lorem ipsum dolor sit amet consectetur,
@@ -128,9 +128,9 @@
 
   <!-- Card Three -->
   <div class="col-md-3">
-    <div class="card p-3 text-center">
-      <img src="assets/images/About-hero.png" alt="Netherlands flag"
-           class="img-fluid h-100 ">
+    <div class="card p-3 text-center h-100">
+      <img src="assets/images/blogg3.jpg" alt=""
+           class="img-fluid " style="height:200px;">
       <div class="card-body text-start">
         <h5 class="card-title py-2">John Doe</h5>
         <p class="card-text pb-2">Lorem ipsum dolor sit amet consectetur,
