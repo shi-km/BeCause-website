@@ -156,7 +156,7 @@ h5 {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: var(--primary-color); /* orange by default */
+  background-color: var(--primary-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,7 +171,7 @@ h5 {
 }
 
 .service-cards .custom-card:hover .circle-wrapper {
-  background-color: var(--secondary-color); /* blue on hover */
+  background-color: var(--secondary-color);
   transform: scale(1.1);
 }
 
@@ -230,73 +230,42 @@ h5 {
 }
 
 .testimonial-card {
-  width: 100%;
-  max-width: 720px;
-  min-height: 260px;
+  border: none;
   border-radius: 1rem;
+  padding: 2rem;
+  max-width: 720px;
+  background: #fff;
 }
 
 .testimonial-text {
+  font-size: 1.1rem;
   line-height: 1.6;
+  color: #333;
   word-break: break-word;
 }
 
+
+/* Testimonial Pager Dots */
 .testimonial-pager > * {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 0 6px;
-  border-radius: 50%;
-  background: #dee2e6;
+  width: 16px;              
+  height: 16px;             
+  margin: 0 8px;            
+  border-radius: 50%;       
+  background: var(--secondary-color);      
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-indent: -9999px;    /* hides default dot character */
+  overflow: hidden;
+  font-size: 0;            /* extra safeguard */
 }
 
-.testimonial-pager .cycle-pager-active {
-  background: var(--secondary-color);
-  box-shadow: 0 0 0 2px rgba(0,183,249,0.2);
-}
-
-/* ===============================
-   Testimonial Dots (Pager)
-================================= */
-.testimonial-pager > * {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  margin: 0 6px;
-  border-radius: 50%;
-  background: #dee2e6; /* inactive gray */
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-/* Active dot - brand orange */
-.testimonial-pager .cycle-pager-active {
-  background: #F29B27;
-  
-  
-  /* ===============================
-   Testimonial Dots (Pager)
-================================= */
-.testimonial-pager > * {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  margin: 0 6px;
-  border-radius: 50%;
-  background:var(--secondary-color); 
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-/* Active dot - brand orange */
+/* Active Dot (Brand Orange) */
 .testimonial-pager .cycle-pager-active {
   background: var(--primary-color);
-  box-shadow: 0 0 0 3px rgba(242, 155, 39, 0.25);
+  box-shadow: 0 0 0 4px rgba(242, 155, 39, 0.3);
+  transform: scale(1.2);
 }
-
-}
-
 
 /* ===============================
    Accordion

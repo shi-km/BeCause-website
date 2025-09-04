@@ -95,8 +95,9 @@
 </div>
 
 
-  <!-- Current Internships Section -->
-  <div class="container my-5">
+<div id="intership-section" style="background-color:#E3DBD8;">
+    <!-- Current Internships Section -->
+  <div class="container p-5" >
     <p class="fw-bold" style="color:#F29B27;">CURRENT INTERNSHIPS</p>
     <h1 class="pb-4 fw-bold" style="color:#00B7F9;">
       Internship Opportunities <br /> in Europe
@@ -170,6 +171,7 @@
 
     </div>
   </div>
+</div>
 
   <!-- Ready to Start Section -->
 <div id="ready-section" class="bg-white">
@@ -213,7 +215,7 @@
 </div>
 
 <!-- Testimonials Section -->
-<div class="container-fluid py-5">
+<div class="container-fluid py-5" style="background-color:#E3DBD8;">
   <h1 class="mb-5 text-center fw-bold" style="color:#00B7F9;">Testimonials</h1>
 
   <div class="row justify-content-center">
@@ -228,51 +230,42 @@
            data-cycle-swipe="true">
 
         <!-- Slide 1 -->
-        <div class="slide">
-          <div class="card testimonial-card shadow-sm mx-auto h-100" style="max-width:700px;">
-            <div class="card-body d-flex flex-column">
-              <div class="d-flex justify-content-between">
-                <div class="text-start">
-                  <h5 class="mb-0 fw-bold">Victor</h5>
-                  <small class="text-muted">Diploma in IT</small>
-                </div>
-              </div>
-              <p class="mt-3 mb-0 testimonial-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+        <div class="slide d-flex justify-content-center">
+          <div class="card testimonial-card shadow-lg mx-auto" style="max-width:700px;">
+            <div class="card-body text-start">
+              <h5 class="fw-bold mb-1">Victor</h5>
+              <small class="text-muted d-block mb-3">Diploma in IT</small>
+              <p class="testimonial-text mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
               </p>
             </div>
           </div>
         </div>
 
         <!-- Slide 2 -->
-        <div class="slide">
-          <div class="card testimonial-card shadow-sm mx-auto h-100" style="max-width:700px;">
-            <div class="card-body d-flex flex-column">
-              <div class="d-flex justify-content-between">
-                <div class="text-start">
-                  <h5 class="mb-0 fw-bold">Jane</h5>
-                  <small class="text-muted">BSc Agriculture</small>
-                </div>
-              </div>
-              <p class="mt-3 mb-0 testimonial-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+        <div class="slide d-flex justify-content-center">
+          <div class="card testimonial-card shadow-lg mx-auto" style="max-width:700px;">
+            <div class="card-body text-start">
+              <h5 class="fw-bold mb-1">Jane</h5>
+              <small class="text-muted d-block mb-3">BSc Agriculture</small>
+              <p class="testimonial-text mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
               </p>
             </div>
           </div>
         </div>
 
         <!-- Slide 3 -->
-        <div class="slide">
-          <div class="card testimonial-card shadow-sm mx-auto h-100" style="max-width:700px;">
-            <div class="card-body d-flex flex-column">
-              <div class="d-flex justify-content-between">
-                <div class="text-start">
-                  <h5 class="mb-0 fw-bold">David</h5>
-                  <small class="text-muted">MSc Mechanical Eng.</small>
-                </div>
-              </div>
-              <p class="mt-3 mb-0 testimonial-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+        <div class="slide d-flex justify-content-center">
+          <div class="card testimonial-card shadow-lg mx-auto" style="max-width:700px;">
+            <div class="card-body text-start">
+              <h5 class="fw-bold mb-1">David</h5>
+              <small class="text-muted d-block mb-3">MSc Mechanical Eng.</small>
+              <p class="testimonial-text mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
               </p>
             </div>
           </div>
@@ -288,9 +281,10 @@
 <!-- Testimonials End -->
 
 
+
 <!-- Contact us section -->
-<div id="section" class="bg-white">
-  <div class="container my-5">
+<div id="section">
+  <div class="container my-5" style="background-color:#E3DBD8;">
     <div class="row">
       <div class="col-md-2"></div>
 
