@@ -66,10 +66,13 @@
             <a class="nav-link active" aria-current="page" href="Media.php">Media</a>
           </li>
 
-          <!-- Application button -->
-          <li class="nav-item">
-            <a class="btn application-button text-white fw-lg py-2" href="#">Apply Now <i class="fa-solid fa-arrow-right-long ps-2"></i></a>
-          </li>
+        <!-- Application button -->
+<li class="nav-item ps-lg-4 mt-2 mt-lg-0">
+  <a class="btn application-button text-white fw-semibold py-2 px-4" href="#">
+    Apply Now <i class="fa-solid fa-arrow-right-long ps-2"></i>
+  </a>
+</li>
+
 
         </ul>
       </div>

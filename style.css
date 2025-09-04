@@ -8,7 +8,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 h5 {
@@ -62,6 +62,41 @@ h5 {
 .navbar-nav .nav-link.active {
   color: var(--primary-color);
 }
+.application-button {
+  background-color:var(--primary-color);
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.application-button:hover {
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  color: white;
+}
+
+/* Desktop: Separate and standout */
+@media (min-width: 992px) {
+  .application-button {
+    margin-left: 20px;
+    box-shadow: 0 4px 12px rgba(0, 183, 249, 0.3);
+  }
+
+  /* Optional: Make it float or pop */
+  .navbar-nav .nav-item:last-child {
+    align-self: center;
+  }
+}
+
+/* Mobile: Keep it stacked with other nav items */
+@media (max-width: 991.98px) {
+  .application-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+
 
 /* ===============================
    Hero Sections
