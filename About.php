@@ -51,11 +51,11 @@
 
 
   <!-- ===================== WHY CHOOSE US SECTION ===================== -->
-  <div class="container my-5" style="background-color:#EBF5F5;">
+  <div class="container my-5 why-choose-us">
 
     <!-- Section Heading -->
     <div class="text p-5">
-      <h1 class="fw-bold pb-2" style="color:#00B7F9;">Why Choose Us?</h1>
+      <h1 class="fw-bold pb-2 section-title">Why Choose Us?</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -71,12 +71,12 @@
     </div>
 
     <!-- Cards Row -->
-    <div class="row g-4 px-4 pb-5">
+    <div class="row g-4 px-4 pb-5 service-cards">
 
       <!-- Card One -->
       <div class="col-md-4">
         <a href="jobs.html" class="card-link-wrapper">
-          <div class="card p-3 text-center h-100 bg-light">
+          <div class="card p-3 text-center h-100 custom-card">
             <div class="circle-wrapper mx-auto mb-2">
               <img src="assets/images/suitcase.png" alt="Suitcase image" class="img-fluid" />
             </div>
@@ -93,7 +93,7 @@
       <!-- Card Two -->
       <div class="col-md-4">
         <a href="internships.html" class="card-link-wrapper">
-          <div class="card p-3 text-center h-100 bg-light">
+          <div class="card p-3 text-center h-100 custom-card">
             <div class="circle-wrapper mx-auto mb-2">
               <img src="assets/images/Abroad.png" alt="Global map" class="img-fluid" />
             </div>
@@ -110,7 +110,7 @@
       <!-- Card Three -->
       <div class="col-md-4">
         <a href="study.html" class="card-link-wrapper">
-          <div class="card p-3 text-center h-100 bg-light">
+          <div class="card p-3 text-center h-100 custom-card">
             <div class="circle-wrapper mx-auto mb-2">
               <img src="assets/images/map.png" alt="Global Map" class="img-fluid" />
             </div>
@@ -126,68 +126,131 @@
 
     </div> <!-- End Cards Row -->
 
-  </div>
+  </div> <!-- End Container -->
+
+
   <!-- ================== END WHY CHOOSE US SECTION ==================== -->
 
 
-<div class="container my-5">
-  <div class="row align-items-center">
-    
-    <!-- Left Column (Video Image) -->
-    <div class="col-md-6 mb-4 mb-md-0">
-      <img src="assets/images/video-player.png" alt="Video player" class="img-fluid" />
-    </div>
+  <!-- Stats Section -->
+  <div class="container my-5">
+    <div class="row align-items-center">
+      
+      <!-- Left Column (Video Image) -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img src="assets/images/video-player.png" alt="Video player" class="img-fluid" />
+      </div>
 
-    <!-- Right Column (Cards Grid) -->
-    <div class="col-md-6">
-      <div class="row g-3">
-        
-        <!-- Card 1 -->
-        <div class="col-md-6">
-          <div class="card stat-card text-center p-3 h-100">
-            <div class="card-body">
-              <h3 class="fw-bold mb-0">200+</h3>
-              <span class="text-muted">Internships</span>
+      <!-- Right Column (Cards Grid) -->
+      <div class="col-md-6">
+        <div class="row g-3">
+          
+          <!-- Card 1 -->
+          <div class="col-md-6">
+            <div class="card stat-card text-center p-3 h-100">
+              <div class="card-body">
+                <h3 class="fw-bold mb-0">200+</h3>
+                <span class="text-muted">Internships</span>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Card 2 -->
-        <div class="col-md-6">
-          <div class="card stat-card text-center p-3 h-100">
-            <div class="card-body">
-              <h3 class="fw-bold mb-0">150+</h3>
-              <span class="text-muted">Programs</span>
+          <!-- Card 2 -->
+          <div class="col-md-6">
+            <div class="card stat-card text-center p-3 h-100">
+              <div class="card-body">
+                <h3 class="fw-bold mb-0">150+</h3>
+                <span class="text-muted">Programs</span>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Card 3 -->
-        <div class="col-md-6">
-          <div class="card stat-card text-center p-3 h-100">
-            <div class="card-body">
-              <h3 class="fw-bold mb-0">50+</h3>
-              <span class="text-muted">Partners</span>
+          <!-- Card 3 -->
+          <div class="col-md-6">
+            <div class="card stat-card text-center p-3 h-100">
+              <div class="card-body">
+                <h3 class="fw-bold mb-0">50+</h3>
+                <span class="text-muted">Partners</span>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Card 4 -->
-        <div class="col-md-6">
-          <div class="card stat-card text-center p-3 h-100">
-            <div class="card-body">
-              <h3 class="fw-bold mb-0">30+</h3>
-              <span class="text-muted">Countries</span>
+          <!-- Card 4 -->
+          <div class="col-md-6">
+            <div class="card stat-card text-center p-3 h-100">
+              <div class="card-body">
+                <h3 class="fw-bold mb-0">30+</h3>
+                <span class="text-muted">Countries</span>
+              </div>
             </div>
           </div>
-        </div>
 
+        </div>
       </div>
     </div>
-    <!-- End Right Column -->
-
   </div>
-</div>
+
+
+  <!-- Contact us section -->
+  <div id="section" class="bg-white">
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8">
+          <form action="">
+            <div class="row my-5">
+              
+              <!-- Email -->
+              <div class="col-md-6 mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <div class="input-group">
+                  <input type="email" id="email" placeholder="Enter your email" class="form-control">
+                  <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="col-md-6 mb-3">
+                <label for="phone" class="form-label">Your Phone</label>
+                <div class="input-group">
+                  <input type="text" id="phone" placeholder="Enter your phone" class="form-control">
+                  <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
+                </div>
+              </div>
+
+              <!-- Address -->
+              <div class="col-md-12 mb-3">
+                <label for="address" class="form-label">Your Address</label>
+                <div class="input-group">
+                  <input type="text" id="address" placeholder="Enter your address" class="form-control">
+                  <span class="input-group-text"><i class="fa-solid fa-location-dot"></i></span>
+                </div>
+              </div>
+
+              <!-- Message -->
+              <div class="col-md-12 mb-3">
+                <label for="message" class="form-label">Message</label>
+                <div class="input-group">
+                  <textarea id="message" placeholder="Write message..." class="form-control" rows="4"></textarea>
+                  <span class="input-group-text"><i class="fa-solid fa-comment"></i></span>
+                </div>
+              </div>
+
+              <!-- Submit Button Centered -->
+              <div class="col-md-12 text-center mt-3">
+                <button type="submit" class="btn application-button text-white fw-bold py-2 px-4">
+                  Send Message <i class="fa-solid fa-arrow-right-long ps-2"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <?php include('Footer.php') ?>

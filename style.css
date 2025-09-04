@@ -1,18 +1,49 @@
 /* ===============================
    Global Styles
 ================================= */
-body {
-  overflow-x: hidden;
-  /* background: linear-gradient(rgba(0, 183, 249, 0.1), rgba(0, 183, 249, 0.1)); */
+:root {
+  --primary-color: #F29B27;   /* Brand Orange */
+  --secondary-color: #00B7F9; /* Brand Blue */
 }
 
-:root {
-  --primary-color: #F29B27;
-  --secondary-color: #00B7F9;
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 h5 {
   font-weight: 600;
+}
+
+.section-title {
+  color: var(--secondary-color);
+}
+
+/* ===============================
+   Links & Buttons
+================================= */
+.card-link-wrapper {
+  display: block;
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.card-link-wrapper:hover,
+.card-link-wrapper:focus {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.application-button {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  box-shadow: none !important;
+}
+
+.application-button:hover {
+  background-color: var(--secondary-color);
 }
 
 /* ===============================
@@ -32,24 +63,13 @@ h5 {
   color: var(--primary-color);
 }
 
-.application-button {
-  background-color: var(--primary-color);
-  box-shadow: none !important;
-  border-radius: 30px !important;
-  transition: background-color 0.3s ease;
-}
-
-.application-button:hover {
-  background-color: var(--secondary-color);
-}
-
 /* ===============================
-   Home Hero Section
+   Hero Sections
 ================================= */
 .home-hero {
   height: calc(100vh - 69px);
   min-height: calc(100vh - 69px);
-  overflow: hidden; /* prevent scrollbars if vector goes outside */
+  overflow: hidden;
   position: relative;
 }
 
@@ -58,13 +78,11 @@ h5 {
   height: 60vh;
 }
 
-/* Hero Vector */
 .hero-vector {
   position: absolute;
   top: 0;
   left: 0;
   width: 500%;
-  height: auto;
   transform: rotate(-20deg);
   opacity: 0.2;
   pointer-events: none;
@@ -75,22 +93,110 @@ h5 {
   color: var(--secondary-color);
 }
 
-/* ===============================
-   About Page Hero Section
-================================= */
 .About-hero {
   height: calc(100vh - 69px);
   min-height: calc(100vh - 69px);
-  overflow: hidden; /* prevent scrollbars if vector goes outside */
   position: relative;
-  background: linear-gradient(rgba(0, 183, 249, 0.1), rgba(0, 183, 249, 0.1)),
+  overflow: hidden;
+  background: linear-gradient(rgba(0,183,249,0.1), rgba(0,183,249,0.1)),
               url('./assets/images/About-hero.png') center/cover no-repeat;
 }
 
+/* ===============================
+   Why Choose Us Section
+================================= */
+.why-choose-us {
+  background-color: #EBF5F5;
+  border-radius: 20px;
+}
 
+/* ===============================
+   Cards (General)
+================================= */
+.card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.3s ease-in-out;
+}
 
+.card:hover,
+.card:focus,
+.card:active {
+  transform: translateY(-10px) scale(1.03);
+}
 
+/* ===============================
+   Service Cards
+================================= */
+.service-cards .custom-card {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
 
+.service-cards .custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.18);
+}
+
+.service-cards .card-title {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.service-cards .card-text {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+/* Circle Wrapper */
+.service-cards .circle-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--primary-color); /* orange by default */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.service-cards .circle-wrapper img {
+  width: 60%;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-cards .custom-card:hover .circle-wrapper {
+  background-color: var(--secondary-color); /* blue on hover */
+  transform: scale(1.1);
+}
+
+.service-cards .custom-card:hover .circle-wrapper img {
+  transform: scale(1.1);
+}
+
+/* ===============================
+   Stat Cards
+================================= */
+.stat-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.18);
+}
+
+.stat-card h3 {
+  color: var(--secondary-color);
+}
 
 /* ===============================
    Internship Section
@@ -99,113 +205,16 @@ h5 {
   background-color: var(--secondary-color);
 }
 
-.circle-wrapper {
-  width: 100px; /* circle size */
-  height: 100px;
-  border-radius: 50%;
-  background-color: var(--primary-color) !important; /* light background behind icon */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden; /* ensures image stays inside */
-}
-
-.circle-wrapper img {
-  width: 60%; /* scale image inside */
-  height: auto;
-  object-fit: contain;
-}
-
-/* Make the entire card clickable */
-.card-link-wrapper {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-  height: 100%;
-}
-
-/* Card styling */
-.card {
-  border: none;
-  border-radius: 1rem;
-  transition: all 0.3s ease-in-out;
-}
-
-/* Hover / Tap pop effect */
-.card:hover,
-.card-link-wrapper:focus .card,
-.card-link-wrapper:active .card {
-  transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-}
-
-/* Circle wrapper */
-.circle-wrapper {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.3s ease-in-out;
-}
-
-/* Glow effect on hover */
-.card:hover .circle-wrapper,
-.card-link-wrapper:focus .circle-wrapper,
-.card-link-wrapper:active .circle-wrapper {
-  background-color: var(--secondary-color);
-  border-color: var(--primary-color);
-  transform: scale(1.1);
-}
-
-/* Circle image */
-.circle-wrapper img {
-  width: 60%;
-  height: auto;
-  object-fit: contain;
-  transition: transform 0.3s ease-in-out;
-}
-
-/* Icon pop */
-.card:hover .circle-wrapper img,
-.card-link-wrapper:focus .circle-wrapper img,
-.card-link-wrapper:active .circle-wrapper img {
-  transform: scale(1.1);
-}
-
-/* Stat Cards */
-.stat-card {
-  background: #fff;
-  border: none;
-  border-radius: 1rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* default soft shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.stat-card:hover,
-.stat-card:active {
-  transform: translateY(-6px) scale(1.02);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* stronger shadow */
-}
-
-/* Number Styling */
-.stat-card h3 {
-  color: var(--secondary-color); /* use your theme blue */
-  font-size: 2rem;
-}
-
 /* ===============================
-   Home Page Cards
+   Home Page Cards (Variants)
 ================================= */
 .rounded-top-left {
-  border-top-left-radius: 50% !important; /* makes it rounded */
+  border-top-left-radius: 50% !important;
   border-top-right-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
   display: block;
-  margin: 10px; /* space from card edges */
+  margin: 10px;
 }
 
 .link-color {
@@ -215,13 +224,11 @@ h5 {
 /* ===============================
    Testimonial Section
 ================================= */
-/* Center slides */
 .testimonial-slider .slide {
   display: flex;
   justify-content: center;
 }
 
-/* Card styling */
 .testimonial-card {
   width: 100%;
   max-width: 720px;
@@ -229,13 +236,11 @@ h5 {
   border-radius: 1rem;
 }
 
-/* Text formatting */
 .testimonial-text {
   line-height: 1.6;
   word-break: break-word;
 }
 
-/* Pager Dots */
 .testimonial-pager > * {
   display: inline-block;
   width: 10px;
@@ -243,36 +248,88 @@ h5 {
   margin: 0 6px;
   border-radius: 50%;
   background: #dee2e6;
-  text-indent: -9999px; /* hide numbers if any */
-  overflow: hidden;
   cursor: pointer;
 }
 
 .testimonial-pager .cycle-pager-active {
-  background: #00B7F9; /* theme blue */
+  background: var(--secondary-color);
   box-shadow: 0 0 0 2px rgba(0,183,249,0.2);
 }
 
+/* ===============================
+   Testimonial Dots (Pager)
+================================= */
+.testimonial-pager > * {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
+  border-radius: 50%;
+  background: #dee2e6; /* inactive gray */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
-/* Accordion */
+/* Active dot - brand orange */
+.testimonial-pager .cycle-pager-active {
+  background: #F29B27;
+  
+  
+  /* ===============================
+   Testimonial Dots (Pager)
+================================= */
+.testimonial-pager > * {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
+  border-radius: 50%;
+  background:var(--secondary-color); 
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
+/* Active dot - brand orange */
+.testimonial-pager .cycle-pager-active {
+  background: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(242, 155, 39, 0.25);
+}
+
+}
+
+
+/* ===============================
+   Accordion
+================================= */
 .accordion-button:not(.collapsed) {
   background-color: white !important;
   color: var(--primary-color);
 }
 
-.accordion-button:not(.collapsed)::after{
+.accordion-button:not(.collapsed)::after {
   color: var(--primary-color);
 }
+
 .accordion-button.collapsed {
   color: var(--secondary-color) !important;
+}
+
+/* ===============================
+   Forms
+================================= */
+.input-group-text i {
+  color: var(--primary-color);
+}
+
+.input-group-text {
+  border-radius: 30px;
 }
 
 /* ===============================
    Footer
 ================================= */
 .footer-bg {
-  background: linear-gradient(rgba(242, 155, 39, 0.9), rgba(242, 155, 39, 0.9)),
+  background: linear-gradient(rgba(242,155,39,0.9), rgba(242,155,39,0.9)),
               url('./assets/images/Group.png') center/cover no-repeat;
   min-height: 400px;
 }
@@ -297,11 +354,6 @@ footer li {
   border-radius: 30px;
 }
 
-.input-group-text {
-  border-radius: 30px;
-}
-
-/* Social Icons */
 .social-icons {
   list-style: none;
   padding: 0;
@@ -315,13 +367,13 @@ footer li {
 }
 
 .social-icons li a:hover {
-  color: #0d6efd; /* bootstrap primary or custom */
+  color: #0d6efd;
 }
 
 /* ===============================
    Responsive Fixes
 ================================= */
-@media (max-width: 991.98px) { /* Bootstrap lg breakpoint */
+@media (max-width: 991.98px) {
   .navbar-nav {
     margin-left: 0 !important;
   }

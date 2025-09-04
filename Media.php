@@ -31,7 +31,7 @@
 
   <!-- Hero section -->
   <div id="hero-section" style="background-color:#00B7F9; border-radius:30px;">
-    <div class="container">
+    <div class="container mb-5">
       <div class="row align-items-center justify-content-center text-center text-md-start py-5">
         <!-- Left Column -->
         <div class="col-md-6">
@@ -51,31 +51,100 @@
   <div class="container my-5">
     <div class="row g-4">
       
-      <div class="col-md-6 col-lg-3">
+      <div class="col-md-6">
         <div class="card h-100 border-0 shadow-sm">
-          <img src="assets/images/sample1.jpg" class="card-img-top" alt="Image 1">
+          <img src="assets/images/About-hero.png" class="card-img-top img-fluid" alt="Image 3">
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3">
+      <div class="col-md-6">
         <div class="card h-100 border-0 shadow-sm">
-          <img src="assets/images/sample2.jpg" class="card-img-top" alt="Image 2">
+          <img src="assets/images/About-hero.png" class="card-img-top img-fluid" alt="Image 3">
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3">
+      <div class="col-md-6">
         <div class="card h-100 border-0 shadow-sm">
-          <img src="assets/images/sample3.jpg" class="card-img-top" alt="Image 3">
+          <img src="assets/images/About-hero.png" class="card-img-top img-fluid" alt="Image 3">
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3">
+      <div class="col-md-6">
         <div class="card h-100 border-0 shadow-sm">
-          <img src="assets/images/sample4.jpg" class="card-img-top" alt="Image 4">
+          <img src="assets/images/About-hero.png" class="card-img-top img-fluid" alt="Image 3">
         </div>
       </div>
 
     </div>
+  </div>
+
+  <div class="container my-5">
+     <h1 class="text-center fw-bold" style="color:#00B7F9;">Real People, Real Transformation</h1>
+     <div class="div">
+      <p class="p-5">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis venenatis
+       cras sed eu massa Et purus duis sollicitudin dignissim habitant. Egestas
+        nulla quis venenatis cras sed eu massa Et purus duis sollicitudin dignissim 
+        habitant. Egestas nulla</p>
+     </div>
+  </div>
+
+  <div class="container my-5">
+
+  <div class="row g-4 justify-content-center">
+
+  <!-- Card One -->
+  <div class="col-md-3">
+    <div class="card p-3 text-center h-100">
+      <img src="assets/images/About-hero.png" alt="Denmark flag"
+           class="img-fluid">
+      <div class="card-body text-start">
+        <h5 class="card-title py-2">John Doe</h5>
+        <p class="card-text pb-2">Lorem ipsum dolor sit amet consectetur,
+           adipisicing elit. Corrupti accusantium omnis aliquam repudiandae
+           voluptatem fugit nesciunt praesentium laudantium deserunt alias,
+            numquam labore nostrum harum perspiciatis qui quos atque culpa cupiditate!</p>
+          <a class="btn application-button text-white fw-lg py-2" 
+          href="#">Read Story<i class="fa-solid fa-arrow-right-long ps-2 text-start"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card Two -->
+  <div class="col-md-3">
+    <div class="card p-3 text-center text-start">
+      <img src="assets/images/About-hero.png" alt="Germany flag"
+           class="img-fluid h-100 ">
+      <div class="card-body text-start">
+        <h5 class="card-title py-2">John Doe</h5>
+        <p class="card-text pb-2">Lorem ipsum dolor sit amet consectetur,
+           adipisicing elit. Corrupti accusantium omnis aliquam repudiandae
+           voluptatem fugit nesciunt praesentium laudantium deserunt alias,
+            numquam labore nostrum harum perspiciatis qui quos atque culpa cupiditate!</p>
+        <a class="btn application-button text-white fw-lg py-2" 
+          href="#">Read Story<i class="fa-solid fa-arrow-right-long ps-2 text-start"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card Three -->
+  <div class="col-md-3">
+    <div class="card p-3 text-center">
+      <img src="assets/images/About-hero.png" alt="Netherlands flag"
+           class="img-fluid h-100 ">
+      <div class="card-body text-start">
+        <h5 class="card-title py-2">John Doe</h5>
+        <p class="card-text pb-2">Lorem ipsum dolor sit amet consectetur,
+           adipisicing elit. Corrupti accusantium omnis aliquam repudiandae
+           voluptatem fugit nesciunt praesentium laudantium deserunt alias,
+            numquam labore nostrum harum perspiciatis qui quos atque culpa cupiditate!</p>
+        <a class="btn application-button text-white fw-lg py-2 text-start" 
+          href="#">Read Story<i class="fa-solid fa-arrow-right-long ps-2"></i></a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
   </div>
 
   <!-- Contact us section -->
