@@ -110,7 +110,7 @@
         <div class="card p-3 text-center">
           <img src="assets/images/Denmark.png" alt="Denmark flag"
                class="img-fluid rounded-circle"
-               style="width:80px; height:80px; object-fit:cover;" />
+               style="width:60px; height:60px;  object-fit:cover;" />
           <div class="card-body text-start">
             <h5 class="card-title">Denmark</h5>
             <p class="card-text">Some quick example text...</p>
@@ -126,7 +126,7 @@
         <div class="card p-3 text-center">
           <img src="assets/images/germany.png" alt="Germany flag"
                class="img-fluid rounded-circle"
-               style="width:80px; height:80px; object-fit:cover;" />
+               style="width:60px; height:60px; object-fit:cover;" />
           <div class="card-body text-start">
             <h5 class="card-title">Germany</h5>
             <p class="card-text">Some quick example text...</p>
@@ -142,7 +142,7 @@
         <div class="card p-3 text-center">
           <img src="assets/images/Netherlands.png" alt="Netherlands flag"
                class="img-fluid rounded-circle"
-               style="width:80px; height:80px; object-fit:cover;" />
+               style="width:60px; height:60px;  object-fit:cover;" />
           <div class="card-body text-start">
             <h5 class="card-title">The Netherlands</h5>
             <p class="card-text">Some quick example text...</p>
@@ -158,7 +158,7 @@
         <div class="card p-3 text-center">
           <img src="assets/images/Romania.png" alt="Romania flag"
                class="img-fluid rounded-circle"
-               style="width:80px; height:80px; object-fit:cover;" />
+               style="width:60px; height:60px;  object-fit:cover;" />
           <div class="card-body text-start">
             <h5 class="card-title">Romania</h5>
             <p class="card-text">Some quick example text...</p>
@@ -231,7 +231,7 @@
 
         <!-- Slide 1 -->
         <div class="slide d-flex justify-content-center">
-          <div class="card testimonial-card shadow-lg mx-auto" style="max-width:700px;">
+          <div class="card testimonial-card shadow-lg mx-auto" style="max-width:800px;">
             <div class="card-body text-start">
               <h5 class="fw-bold mb-1">Victor</h5>
               <small class="text-muted d-block mb-3">Diploma in IT</small>
@@ -245,7 +245,7 @@
 
         <!-- Slide 2 -->
         <div class="slide d-flex justify-content-center">
-          <div class="card testimonial-card shadow-lg mx-auto" style="max-width:700px;">
+          <div class="card testimonial-card shadow-lg mx-auto" style="max-width:800px;">
             <div class="card-body text-start">
               <h5 class="fw-bold mb-1">Jane</h5>
               <small class="text-muted d-block mb-3">BSc Agriculture</small>
@@ -259,7 +259,7 @@
 
         <!-- Slide 3 -->
         <div class="slide d-flex justify-content-center">
-          <div class="card testimonial-card shadow-lg mx-auto" style="max-width:700px;">
+          <div class="card testimonial-card shadow-lg mx-auto" style="max-width:800px;">
             <div class="card-body text-start">
               <h5 class="fw-bold mb-1">David</h5>
               <small class="text-muted d-block mb-3">MSc Mechanical Eng.</small>
