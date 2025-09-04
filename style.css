@@ -267,6 +267,23 @@ h5 {
   transform: scale(1.2);
 }
 
+
+  .testimonial-slider {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .testimonial-slider .slide {
+    display: block !important;
+    width: 100% !important;
+    float: none !important;
+    clear: both;
+  }
+
+  .testimonial-card {
+    width: 100%;
+  }
+
 /* ===============================
    Accordion
 ================================= */
