@@ -264,6 +264,9 @@ h5 {
 .accordion-button:not(.collapsed)::after{
   color: var(--primary-color);
 }
+.accordion-button.collapsed {
+  color: var(--secondary-color) !important;
+}
 
 /* ===============================
    Footer

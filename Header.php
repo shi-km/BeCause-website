@@ -54,11 +54,11 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="Denmark.php">Denmark</a></li>
-              <li><a class="dropdown-item" href="#">Germany</a></li>
+              <li><a class="dropdown-item" href="Germany.php">Germany</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">The Netherlands</a></li>
-              <li><a class="dropdown-item" href="#">Romania</a></li>
-              <li><a class="dropdown-item" href="#">Norway</a></li>
+              <li><a class="dropdown-item" href="Netherlands.php">The Netherlands</a></li>
+              <li><a class="dropdown-item" href="Romania.php">Romania</a></li>
+              <li><a class="dropdown-item" href="Norway.php">Norway</a></li>
             </ul>
           </li>
 
