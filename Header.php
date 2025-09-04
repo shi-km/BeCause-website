@@ -63,7 +63,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Media</a>
+            <a class="nav-link active" aria-current="page" href="Media.php">Media</a>
           </li>
 
           <!-- Application button -->

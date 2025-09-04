@@ -46,7 +46,106 @@
       </div>
     </div>
   </div>
+
+  <!-- Media Cards Section -->
+  <div class="container my-5">
+    <div class="row g-4">
+      
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="assets/images/sample1.jpg" class="card-img-top" alt="Image 1">
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="assets/images/sample2.jpg" class="card-img-top" alt="Image 2">
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="assets/images/sample3.jpg" class="card-img-top" alt="Image 3">
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="assets/images/sample4.jpg" class="card-img-top" alt="Image 4">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Contact us section -->
+  <h1 class="my-5 text-center fw-bold" style="color:#00B7F9;">Get in Touch</h1>
+  <div id="section" class="bg-white">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8">
+          <form action="">
+            <div class="row my-5">
+              
+              <!-- Email -->
+              <div class="col-md-6 mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <div class="input-group">
+                  <input type="email" id="email" placeholder="Enter your email" class="form-control">
+                  <span class="input-group-text"><i class="fa-solid fa-envelope" style="color:#F29B27;"></i></span>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="col-md-6 mb-3">
+                <label for="phone" class="form-label">Your Phone</label>
+                <div class="input-group">
+                  <input type="text" id="phone" placeholder="Enter your phone" class="form-control">
+                  <span class="input-group-text"><i class="fa-solid fa-phone" style="color:#F29B27;"></i></span>
+                </div>
+              </div>
+
+              <!-- Address -->
+              <div class="col-md-12 mb-3">
+                <label for="address" class="form-label">Your Address</label>
+                <div class="input-group">
+                  <input type="text" id="address" placeholder="Enter your address" class="form-control">
+                  <span class="input-group-text"><i class="fa-solid fa-location-dot" style="color:#F29B27;"></i></span>
+                </div>
+              </div>
+
+              <!-- Message -->
+              <div class="col-md-12 mb-3">
+                <label for="message" class="form-label">Message</label>
+                <div class="input-group">
+                  <textarea id="message" placeholder="Write message..." class="form-control" rows="4"></textarea>
+                  <span class="input-group-text"><i class="fa-solid fa-comment" style="color:#F29B27;"></i></span>
+                </div>
+              </div>
+
+              <!-- Submit Button Centered -->
+              <div class="col-md-12 text-center mt-3">
+                <button type="submit" class="btn application-button text-white fw-bold py-2 px-4">
+                  Send Message <i class="fa-solid fa-arrow-right-long ps-2"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+  </div>
+
   <!-- Footer -->
   <?php include 'Footer.php'; ?>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          crossorigin="anonymous"></script>
 </body>
 </html>
