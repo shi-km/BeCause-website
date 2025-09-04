@@ -95,7 +95,7 @@
   <!-- Card One -->
   <div class="col-md-3">
     <div class="card p-3 text-center h-100">
-      <img src="assets/images/bloog2.jpg" alt="Denmark flag"
+      <img src="assets/images/blogg1.jpg" alt="Denmark flag"
            class="img-fluid" style="height:200px;">
       <div class="card-body text-start">
         <h5 class="card-title py-2">John Doe</h5>
@@ -112,8 +112,8 @@
   <!-- Card Two -->
   <div class="col-md-3">
     <div class="card p-3 text-center text-start">
-      <img src="assets/images/bloog2.jpg.png" alt="Germany flag"
-           class="img-fluid h-100 "style="height:200px;">
+      <img src="assets/images/bloog2.jpg" alt="Germany flag"
+           class="img-fluid"style="height:200px;">
       <div class="card-body text-start">
         <h5 class="card-title py-2">John Doe</h5>
         <p class="card-text pb-2">Lorem ipsum dolor sit amet consectetur,
