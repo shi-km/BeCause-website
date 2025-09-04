@@ -76,6 +76,33 @@ Terms and Conditions  |  Privacy Policy</p>
   </p>
 </div>
 
+          <!-- Back to Top Button -->
+<button id="backToTop" class="btn btn-info text-white rounded-circle shadow-lg" title="Back to Top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+        
+
+<script>
+  // Show the button when user scrolls down
+  window.onscroll = function() {
+    const btn = document.getElementById("backToTop");
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      btn.style.display = "flex";
+    } else {
+      btn.style.display = "none";
+    }
+  };
+
+  // Scroll to top when clicked
+  document.getElementById("backToTop").addEventListener("click", function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>
+
 
     <!-- Bootstrap 5 Js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -86,5 +113,6 @@ Terms and Conditions  |  Privacy Policy</p>
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
           crossorigin="anonymous"></script>
 
-        
+
+
 </footer>

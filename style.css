@@ -98,8 +98,13 @@ h5 {
   min-height: calc(100vh - 69px);
   position: relative;
   overflow: hidden;
+
+  /* Parallax Background Setup */
   background: linear-gradient(rgba(0,183,249,0.1), rgba(0,183,249,0.1)),
-              url('./assets/images/About-hero.png') center/cover no-repeat;
+              url('./assets/images/About-hero.png') center center / cover no-repeat fixed;
+  
+  /* Key Part: 'fixed' attachment for parallax */
+  background-attachment: fixed;
 }
 
 /* ===============================
@@ -364,3 +369,21 @@ footer li {
     margin-left: 0 !important;
   }
 }
+
+ #backToTop {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 9999;
+    display: none;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  #backToTop:hover {
+    background-color: #00B7F9;
+  }

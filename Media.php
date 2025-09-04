@@ -30,7 +30,7 @@
   <?php include('Header.php') ?>
 
   <!-- Hero section -->
-  <div id="hero-section" style="background-color:#00B7F9; border-radius:30px;">
+  <div id="hero-section" style="background-color:#00B7F9; border-radius:30px; mb-5">
     <div class="container mb-5">
       <div class="row align-items-center justify-content-center text-center text-md-start py-5">
         <!-- Left Column -->
