@@ -64,7 +64,7 @@
     <!-- Card 1 -->
     <div class="col-md-6">
       <div class="card h-100 border-0 shadow-sm">
-        <img src="assets/images/About-hero.png" 
+        <img src="assets/images/country2.jpg" 
              alt="Image 1"
              style="height:100%; width:100%; object-fit:cover; border-radius:0.5rem;">
       </div>
@@ -73,7 +73,7 @@
     <!-- Card 2 -->
     <div class="col-md-6">
       <div class="card h-100 border-0 shadow-sm">
-        <img src="assets/images/About-hero.png" 
+        <img src="assets/images/country3.jpg" 
              alt="Image 2"
              style="height:100%; width:100%; object-fit:cover; border-radius:0.5rem;">
       </div>
@@ -82,7 +82,7 @@
     <!-- Card 3 -->
     <div class="col-md-6">
       <div class="card h-100 border-0 shadow-sm">
-        <img src="assets/images/About-hero.png" 
+        <img src="assets/images/country4.jpg" 
              alt="Image 3"
              style="height:100%; width:100%; object-fit:cover; border-radius:0.5rem;">
       </div>
@@ -91,7 +91,7 @@
     <!-- Card 4 -->
     <div class="col-md-6">
       <div class="card h-100 border-0 shadow-sm">
-        <img src="assets/images/About-hero.png" 
+        <img src="assets/images/country1.jpg" 
              alt="Image 4"
              style="height:100%; width:100%; object-fit:cover; border-radius:0.5rem;">
       </div>

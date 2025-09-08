@@ -319,12 +319,13 @@ h5 {
   width: 100%;
 }
 
-.contact-background{
+.contact-background {
   background-image: url('./assets/images/kapta.png');
   background-size: cover !important;
   background-position: center !important;
   height: 80vh !important;
 }
+
 
 /* ===============================
    Accordion
@@ -384,6 +385,35 @@ footer li {
   border-radius: 30px;
 }
 
+.footer-logo {
+  max-width: 300px;
+  height: auto;
+}
+
+/* Footer Links */
+.footer-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/* Social Icons */
 .social-icons {
   list-style: none;
   padding: 0;
@@ -391,13 +421,13 @@ footer li {
 }
 
 .social-icons li a {
-  color: #fff;
-  font-size: 18px;
-  transition: color 0.3s;
+  color: white;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
 }
 
 .social-icons li a:hover {
-  color: #0d6efd;
+  color: var(--secondary-color);
 }
 
 
@@ -421,62 +451,6 @@ footer li {
   background-color: var(--secondary-color);
 }
 
-
-/* ===============================
-   Responsive Fixes
-================================= */
-@media (max-width: 991.98px) {
-  .navbar-nav {
-    margin-left: 0 !important;
-  }
-}
-
-
-/* Footer logo */
-.footer-logo {
-  max-width: 300px;
-  height: auto;
-}
-
-/* Social Icons */
-.social-icons li {
-  list-style: none;
-}
-.social-icons li a {
-  color: white;
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
-}
-.social-icons li a:hover {
-  color: var(--secondary-color); /* Highlight color */
-}
-
-/* Footer Links */
-.footer-links {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-.footer-links li {
-  margin-bottom: 8px;
-}
-.footer-links a {
-  color:white;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-.footer-links a:hover {
-  color: var(--secondary-color);
-  text-decoration: underline;
-  font-weight: 600;
-}
-
-/* Newsletter form */
-.footer-form {
-  border-radius: 0;
-}
-
-/* Back to Top Button */
 .back-to-top-btn {
   display: none; /* Hidden by default */
   position: fixed;
@@ -491,6 +465,17 @@ footer li {
   justify-content: center;
   align-items: center;
 }
+
 .back-to-top-btn:hover {
   background-color: #138496;
+}
+
+
+/* ===============================
+   Responsive Fixes
+================================= */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    margin-left: 0 !important;
+  }
 }

@@ -37,9 +37,9 @@
 <?php include('Header.php') ?>
 
       <!-- Contact us section -->
-  <div id="section">
+  <div id="section contact-background">
     <h1 class="p-5 text-center fw-bold" style="color:#00B7F9;">Talk To Us</h1>
-    <div class="container contact-background">
+    <div class="container">
       <div class="row">
         <div class="col-md-2"></div>
 
