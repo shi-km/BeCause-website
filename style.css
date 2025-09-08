@@ -9,6 +9,7 @@
 body {
   font-family: Arial, sans-serif;
   overflow-x: hidden !important;
+  background-color: #EBF5F5;
 }
 
 h5 {
@@ -18,6 +19,7 @@ h5 {
 .section-title {
   color: var(--secondary-color);
 }
+
 
 /* ===============================
    Links & Buttons
@@ -44,7 +46,10 @@ h5 {
 
 .application-button:hover {
   background-color: var(--secondary-color);
+  text-decoration: none;
+  color: white;
 }
+
 
 /* ===============================
    Navbar
@@ -62,32 +67,20 @@ h5 {
 .navbar-nav .nav-link.active {
   color: var(--primary-color);
 }
-.application-button {
-  background-color:var(--primary-color);
-  border-radius: 30px;
-  transition: all 0.3s ease;
-}
 
-.application-button:hover {
-  background-color: var(--secondary-color);
-  text-decoration: none;
-  color: white;
-}
-
-/* Desktop: Separate and standout */
+/* Desktop Navbar Button */
 @media (min-width: 992px) {
   .application-button {
     margin-left: 20px;
     box-shadow: 0 4px 12px rgba(0, 183, 249, 0.3);
   }
 
-  /* Optional: Make it float or pop */
   .navbar-nav .nav-item:last-child {
     align-self: center;
   }
 }
 
-/* Mobile: Keep it stacked with other nav items */
+/* Mobile Navbar Button */
 @media (max-width: 991.98px) {
   .application-button {
     width: 100%;
@@ -95,7 +88,6 @@ h5 {
     margin-top: 10px;
   }
 }
-
 
 
 /* ===============================
@@ -134,13 +126,12 @@ h5 {
   position: relative;
   overflow: hidden;
 
-  /* Parallax Background Setup */
+  /* Parallax Background */
   background: linear-gradient(rgba(0,183,249,0.1), rgba(0,183,249,0.1)),
               url('./assets/images/About-hero.png') center center / cover no-repeat fixed;
-  
-  /* Key Part: 'fixed' attachment for parallax */
   background-attachment: fixed;
 }
+
 
 /* ===============================
    Why Choose Us Section
@@ -150,8 +141,9 @@ h5 {
   border-radius: 20px;
 }
 
+
 /* ===============================
-   Cards (General)
+   General Cards
 ================================= */
 .card {
   border: none;
@@ -164,6 +156,7 @@ h5 {
 .card:active {
   transform: translateY(-10px) scale(1.03);
 }
+
 
 /* ===============================
    Service Cards
@@ -191,7 +184,7 @@ h5 {
   font-size: 0.95rem;
 }
 
-/* Circle Wrapper */
+/* Circle Icon */
 .service-cards .circle-wrapper {
   width: 100px;
   height: 100px;
@@ -219,6 +212,7 @@ h5 {
   transform: scale(1.1);
 }
 
+
 /* ===============================
    Stat Cards
 ================================= */
@@ -238,12 +232,14 @@ h5 {
   color: var(--secondary-color);
 }
 
+
 /* ===============================
    Internship Section
 ================================= */
 .internship-section {
   background-color: var(--secondary-color);
 }
+
 
 /* ===============================
    Home Page Cards (Variants)
@@ -261,8 +257,9 @@ h5 {
   color: var(--primary-color);
 }
 
+
 /* ===============================
-   Testimonial Section
+   Testimonials
 ================================= */
 .testimonial-slider .slide {
   display: flex;
@@ -284,8 +281,7 @@ h5 {
   word-break: break-word;
 }
 
-
-/* Testimonial Pager Dots */
+/* Pager Dots */
 .testimonial-pager > * {
   display: inline-block;
   width: 16px;              
@@ -295,34 +291,34 @@ h5 {
   background: var(--secondary-color);      
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  text-indent: -9999px;    /* hides default dot character */
+  text-indent: -9999px;
   overflow: hidden;
-  font-size: 0;            /* extra safeguard */
+  font-size: 0;
 }
 
-/* Active Dot (Brand Orange) */
+/* Active Pager Dot */
 .testimonial-pager .cycle-pager-active {
   background: var(--primary-color);
   box-shadow: 0 0 0 4px rgba(242, 155, 39, 0.3);
   transform: scale(1.2);
 }
 
+.testimonial-slider {
+  position: relative;
+  overflow: hidden;
+}
 
-  .testimonial-slider {
-    position: relative;
-    overflow: hidden;
-  }
+.testimonial-slider .slide {
+  display: block !important;
+  width: 100% !important;
+  float: none !important;
+  clear: both;
+}
 
-  .testimonial-slider .slide {
-    display: block !important;
-    width: 100% !important;
-    float: none !important;
-    clear: both;
-  }
+.testimonial-card {
+  width: 100%;
+}
 
-  .testimonial-card {
-    width: 100%;
-  }
 
 /* ===============================
    Accordion
@@ -340,6 +336,7 @@ h5 {
   color: var(--secondary-color) !important;
 }
 
+
 /* ===============================
    Forms
 ================================= */
@@ -350,6 +347,7 @@ h5 {
 .input-group-text {
   border-radius: 30px;
 }
+
 
 /* ===============================
    Footer
@@ -396,6 +394,28 @@ footer li {
   color: #0d6efd;
 }
 
+
+/* ===============================
+   Back to Top Button
+================================= */
+#backToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  z-index: 9999;
+  display: none;
+  width: 45px;
+  height: 45px;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+#backToTop:hover {
+  background-color: var(--secondary-color);
+}
+
+
 /* ===============================
    Responsive Fixes
 ================================= */
@@ -405,20 +425,66 @@ footer li {
   }
 }
 
- #backToTop {
-    position: fixed;
-    bottom: 40px;
-    right: 30px;
-    z-index: 9999;
-    display: none;
-    width: 45px;
-    height: 45px;
-    font-size: 18px;
-    justify-content: center;
-    align-items: center;
-    display: none;
-  }
 
-  #backToTop:hover {
-    background-color: #00B7F9;
-  }
+/* Footer logo */
+.footer-logo {
+  max-width: 300px;
+  height: auto;
+}
+
+/* Social Icons */
+.social-icons li {
+  list-style: none;
+}
+.social-icons li a {
+  color: white;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+.social-icons li a:hover {
+  color: var(--secondary-color); /* Highlight color */
+}
+
+/* Footer Links */
+.footer-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.footer-links li {
+  margin-bottom: 8px;
+}
+.footer-links a {
+  color:white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-links a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/* Newsletter form */
+.footer-form {
+  border-radius: 0;
+}
+
+/* Back to Top Button */
+.back-to-top-btn {
+  display: none; /* Hidden by default */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #17a2b8; /* Bootstrap info color */
+  border: none;
+  padding: 12px 15px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+.back-to-top-btn:hover {
+  background-color: #138496;
+}

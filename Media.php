@@ -30,7 +30,7 @@
   <?php include('Header.php') ?>
 
   <!-- Hero section -->
-  <div id="hero-section" style="background-color:#00B7F9; border-radius:30px; mb-5">
+  <div id="hero-section" style="background-color:#00B7F9; border-radius:30px;">
     <div class="container mb-5">
       <div class="row align-items-center justify-content-center text-center text-md-start py-5">
         <!-- Left Column -->
@@ -47,50 +47,62 @@
     </div>
   </div>
 
+  <div class="container text-center d-flex flex-column align-items-center">
+    <h1 class="pb-4 fw-bold" style="color:#00B7F9;">Real People, Real Transformation</h1>
+    <p class=" text-start">Et purus duis sollicitudin dignissim habitant.
+       Egestas nulla quis venenatis cras sed eu massa
+       Et purus duis<br> sollicitudin dignissim habitant.
+       Egestas nulla quis venenatis cras sed eu massa
+       Et purus duis sollicitudin <br>dignissim habitant.
+       Egestas nulla</p>
+  </div>
+
   <!-- Media Cards Section -->
-  <div class="container my-5">
-    <div class="row g-4">
-      
-      <div class="col-md-6">
-        <div class="card h-100 border-0 shadow-sm">
-          <img src="assets/images/About-hero.png" class="card-img-top img-fluid" alt="Image 3">
-        </div>
+  <div class="container p-5">
+  <div class="row g-4">
+    
+    <!-- Card 1 -->
+    <div class="col-md-6">
+      <div class="card h-100 border-0 shadow-sm">
+        <img src="assets/images/About-hero.png" 
+             alt="Image 1"
+             style="height:100%; width:100%; object-fit:cover; border-radius:0.5rem;">
       </div>
-
-      <div class="col-md-6">
-        <div class="card h-100 border-0 shadow-sm">
-          <img src="assets/images/About-hero.png" class="card-img-top img-fluid" alt="Image 3">
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="card h-100 border-0 shadow-sm">
-          <img src="assets/images/About-hero.png" class="card-img-top img-fluid" alt="Image 3">
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="card h-100 border-0 shadow-sm">
-          <img src="assets/images/About-hero.png" class="card-img-top img-fluid" alt="Image 3">
-        </div>
-      </div>
-
     </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-6">
+      <div class="card h-100 border-0 shadow-sm">
+        <img src="assets/images/About-hero.png" 
+             alt="Image 2"
+             style="height:100%; width:100%; object-fit:cover; border-radius:0.5rem;">
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-6">
+      <div class="card h-100 border-0 shadow-sm">
+        <img src="assets/images/About-hero.png" 
+             alt="Image 3"
+             style="height:100%; width:100%; object-fit:cover; border-radius:0.5rem;">
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-md-6">
+      <div class="card h-100 border-0 shadow-sm">
+        <img src="assets/images/About-hero.png" 
+             alt="Image 4"
+             style="height:100%; width:100%; object-fit:cover; border-radius:0.5rem;">
+      </div>
+    </div>
+
   </div>
+</div>
 
-  <div class="container my-5">
-     <h1 class="text-center fw-bold" style="color:#00B7F9;">Real People, Real Transformation</h1>
-     <div class="div">
-      <p class="p-5">Et purus duis sollicitudin dignissim habitant. Egestas nulla quis venenatis
-       cras sed eu massa Et purus duis sollicitudin dignissim habitant. Egestas
-        nulla quis venenatis cras sed eu massa Et purus duis sollicitudin dignissim 
-        habitant. Egestas nulla</p>
-     </div>
-  </div>
+  <div class="container py-5">
 
-  <div class="container my-5">
-
-  <div class="row g-4 justify-content-center">
+  <div class="row gx-4 justify-content-center">
 
   <!-- Card One -->
   <div class="col-md-3">
@@ -148,9 +160,10 @@
   </div>
 
   <!-- Contact us section -->
-  <h1 class="my-5 text-center fw-bold" style="color:#00B7F9;">Get in Touch</h1>
-  <div id="section" class="bg-white">
-    <div class="container mt-5">
+
+  <div id="section" class="bg-white pb-5">
+      <h1 class="pt-5 text-center fw-bold" style="color:#00B7F9;">Get in Touch</h1>
+    <div class="container my-5" style="background-color:#EBF5F5; border-radius:30px">
       <div class="row">
         <div class="col-md-2"></div>
 

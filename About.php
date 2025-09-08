@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- ===============================
+       Meta & Document Settings
+  ================================ -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title></title>
 
-  <!-- Custom CSS -->
+  <!-- ===============================
+       Stylesheets
+  ================================ -->
   <link rel="stylesheet" href="style.css" />
 
   <!-- Font Awesome Icons -->
@@ -18,6 +23,9 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
         crossorigin="anonymous" />
 
+  <!-- ===============================
+       Scripts
+  ================================ -->
   <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
@@ -27,14 +35,20 @@
   <!-- Animate on Scroll -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
-
 <body>
-  <!-- Header -->
+
+  <!-- ===============================
+       Header (PHP Include)
+  ================================ -->
   <?php include('Header.php') ?>
-  <!-- End Header -->
+  <!-- ===============================
+       End Header
+  ================================ -->
 
 
-  <!-- ===================== HERO SECTION ===================== -->
+  <!-- ===============================
+       HERO SECTION
+  ================================ -->
   <div class="container-fluid">
     <div class="About-hero position-relative">
       <div class="About-text position-absolute ms-5 top-50">
@@ -47,10 +61,14 @@
       </div>
     </div>
   </div>
-  <!-- ================== END HERO SECTION ==================== -->
+  <!-- ===============================
+       END HERO SECTION
+  ================================ -->
 
 
-  <!-- ===================== WHY CHOOSE US SECTION ===================== -->
+  <!-- ===============================
+       WHY CHOOSE US SECTION
+  ================================ -->
   <div class="container my-5 why-choose-us">
 
     <!-- Section Heading -->
@@ -127,12 +145,14 @@
     </div> <!-- End Cards Row -->
 
   </div> <!-- End Container -->
+  <!-- ===============================
+       END WHY CHOOSE US SECTION
+  ================================ -->
 
 
-  <!-- ================== END WHY CHOOSE US SECTION ==================== -->
-
-
-  <!-- Stats Section -->
+  <!-- ===============================
+       STATS SECTION
+  ================================ -->
   <div class="container my-5">
     <div class="row align-items-center">
       
@@ -185,13 +205,18 @@
             </div>
           </div>
 
-        </div>
-      </div>
+        </div> <!-- End Row -->
+      </div> <!-- End Right Column -->
     </div>
   </div>
+  <!-- ===============================
+       END STATS SECTION
+  ================================ -->
 
 
-  <!-- Contact us section -->
+  <!-- ===============================
+       CONTACT US SECTION
+  ================================ -->
   <div id="section" class="bg-white">
     <div class="container my-5">
       <div class="row">
@@ -237,13 +262,14 @@
                 </div>
               </div>
 
-              <!-- Submit Button Centered -->
+              <!-- Submit Button -->
               <div class="col-md-12 text-center mt-3">
                 <button type="submit" class="btn application-button text-white fw-bold py-2 px-4">
                   Send Message <i class="fa-solid fa-arrow-right-long ps-2"></i>
                 </button>
               </div>
-            </div>
+
+            </div> <!-- End Form Row -->
           </form>
         </div>
 
@@ -251,10 +277,18 @@
       </div>
     </div>
   </div>
+  <!-- ===============================
+       END CONTACT US SECTION
+  ================================ -->
 
-  <!-- Footer -->
+
+  <!-- ===============================
+       Footer (PHP Include)
+  ================================ -->
   <?php include('Footer.php') ?>
-  <!-- End Footer -->
+  <!-- ===============================
+       End Footer
+  ================================ -->
 
 </body>
 </html>
