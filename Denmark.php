@@ -240,23 +240,22 @@
   </div>
 
   <!-- Contact us section -->
-  <h1 class="my-5 text-center fw-bold" style="color:#00B7F9;">Get in Touch</h1>
-  <div id="section" class="bg-white">
-    <div class="container mt-5">
+ <div id="section" class="bg-white pb-5">
+      <h1 class="pt-5 text-center fw-bold" style="color:#00B7F9;">Get in Touch</h1>
+    <div class="container my-5" style="background-color:#EBF5F5; border-radius:30px">
       <div class="row">
         <div class="col-md-2"></div>
 
         <div class="col-md-8">
           <form action="">
             <div class="row my-5">
+              
               <!-- Email -->
               <div class="col-md-6 mb-3">
                 <label for="email" class="form-label">Your Email</label>
                 <div class="input-group">
                   <input type="email" id="email" placeholder="Enter your email" class="form-control">
-                  <span class="input-group-text">
-                    <i class="fa-solid fa-envelope" style="color:#F29B27;"></i>
-                  </span>
+                  <span class="input-group-text"><i class="fa-solid fa-envelope" style="color:#F29B27;"></i></span>
                 </div>
               </div>
 
@@ -265,9 +264,7 @@
                 <label for="phone" class="form-label">Your Phone</label>
                 <div class="input-group">
                   <input type="text" id="phone" placeholder="Enter your phone" class="form-control">
-                  <span class="input-group-text">
-                    <i class="fa-solid fa-phone" style="color:#F29B27;"></i>
-                  </span>
+                  <span class="input-group-text"><i class="fa-solid fa-phone" style="color:#F29B27;"></i></span>
                 </div>
               </div>
 
@@ -276,9 +273,7 @@
                 <label for="address" class="form-label">Your Address</label>
                 <div class="input-group">
                   <input type="text" id="address" placeholder="Enter your address" class="form-control">
-                  <span class="input-group-text">
-                    <i class="fa-solid fa-location-dot" style="color:#F29B27;"></i>
-                  </span>
+                  <span class="input-group-text"><i class="fa-solid fa-location-dot" style="color:#F29B27;"></i></span>
                 </div>
               </div>
 
@@ -287,9 +282,7 @@
                 <label for="message" class="form-label">Message</label>
                 <div class="input-group">
                   <textarea id="message" placeholder="Write message..." class="form-control" rows="4"></textarea>
-                  <span class="input-group-text">
-                    <i class="fa-solid fa-comment" style="color:#F29B27;"></i>
-                  </span>
+                  <span class="input-group-text"><i class="fa-solid fa-comment" style="color:#F29B27;"></i></span>
                 </div>
               </div>
 

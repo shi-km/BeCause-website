@@ -319,6 +319,12 @@ h5 {
   width: 100%;
 }
 
+.contact-background{
+  background-image: url('./assets/images/kapta.png');
+  background-size: cover !important;
+  background-position: center !important;
+  height: 80vh !important;
+}
 
 /* ===============================
    Accordion
